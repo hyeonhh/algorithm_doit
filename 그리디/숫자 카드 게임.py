@@ -10,6 +10,3 @@ for i in range(n):
     min_value = min(min_value,a)
   result = max(result,min_value)
 print(result)
-
-
-rmf
