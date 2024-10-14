@@ -31,5 +31,6 @@ word = input()
 
 for i in croatia :
     word = word.replace(i, '*')  # input 변수와 동일한 이름의 변수
+    # 어차피 크로아티아 알파벳으로 변환 후에도 글자를 한글자 취급하므로 변환한 word의 길이만 출력해주면 되는 거였다..!
 print(word)
 print(len(word))
