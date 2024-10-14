@@ -12,6 +12,7 @@ def check_groud_word():
         if checked_word[-1] == w:
             continue
         else:
+            # 리스트에 단어가 포함되어있는지 in 연산자로 확인할 수 있다.
             if w in checked_word:
                 print("그룹 단어 아님")
                 return 0
